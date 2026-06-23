@@ -1,154 +1,93 @@
-\# 🩸 LeukemiaDetector
-
-
+﻿# LeukemiaDetector
 
 AI-powered deep learning system for the detection and classification of leukemia from blood smear images.
 
-
-
-\## 🇳🇬 Made for Nigeria
-
-
+## Made for Nigeria
 
 This project aims to assist medical professionals in Nigeria with early detection of Acute Lymphoblastic Leukemia (ALL) using artificial intelligence.
 
-
-
-\## 📊 Model Performance
-
-
+## Model Performance
 
 | Metric | Value |
-
 |--------|-------|
+| **Accuracy** | 95.10% |
+| **Precision** | 95.47% |
+| **Recall** | 94.69% |
+| **Dataset** | 3,256 blood smear images |
+| **Classes** | Benign, Early, Pre, Pro |
 
-| \*\*Accuracy\*\* | 95.10% |
+## Architecture
 
-| \*\*Precision\*\* | 95.47% |
+- **Base Model:** MobileNetV2 (Transfer Learning)
+- **Framework:** TensorFlow 2.21
+- **Input Size:** 224 x 224 pixels
+- **Optimizer:** Adam
+- **Loss Function:** Categorical Crossentropy
 
-| \*\*Recall\*\* | 94.69% |
+## Features
 
-| \*\*Dataset\*\* | 3,256 blood smear images |
+- AI-powered blood smear analysis
+- Web interface for image upload
+- User registration and login system
+- Real-time probability visualization
+- Nigerian cancer center directory
+- Leukemia education and prevention tips
 
-| \*\*Classes\*\* | Benign, Early, Pre, Pro |
-
-
-
-\## 🏗️ Architecture
-
-
-
-\- \*\*Base Model:\*\* MobileNetV2 (Transfer Learning)
-
-\- \*\*Framework:\*\* TensorFlow 2.21
-
-\- \*\*Input Size:\*\* 224 × 224 pixels
-
-\- \*\*Optimizer:\*\* Adam
-
-\- \*\*Loss Function:\*\* Categorical Crossentropy
-
-
-
-\## 🚀 Features
-
-
-
-\- 🔬 AI-powered blood smear analysis
-
-\- 📤 Web interface for image upload
-
-\- 👤 User registration and login system
-
-\- 📊 Real-time probability visualization
-
-\- 🏥 Nigerian cancer center directory
-
-\- 📚 Leukemia education and prevention tips
-
-
-
-\## 🛠️ Installation
-
-
-
-```bash
-
-git clone https://github.com/Mayowa-27/leukemia-detection-ai.git
-
-cd leukemia-detection-ai
-
-python -m venv venv
-
-venv\\Scripts\\activate
-
-pip install -r requirements.txt
-
-
-
-🖥️ Usage
-
-Web App
-
-streamlit run app.py
-
-## 📸 Screenshots
+## Screenshots
 
 ### Login Page
-<img src="https://github.com/Mayowa-27/leukemia-detection-ai/raw/main/screenshots/login.png" width="800"/>
+![Login](screenshots/login.png)
 
 ### AI Diagnosis Dashboard
-<img src="https://github.com/Mayowa-27/leukemia-detection-ai/raw/main/screenshots/dashboard.png" width="800"/>
+![Dashboard](screenshots/dashboard.png)
 
 ### Scan Results with Probability Analysis
-<img src="https://github.com/Mayowa-27/leukemia-detection-ai/raw/main/screenshots/scan_result.png" width="800"/>
+![Scan Result](screenshots/scan_result.png)
 
-### Leukemia Education & Prevention
-<img src="https://github.com/Mayowa-27/leukemia-detection-ai/raw/main/screenshots/about.png" width="800"/>
+### Leukemia Education and Prevention
+![About](screenshots/about.png)
 
 ### Nigerian Cancer Centers Directory
-<img src="https://github.com/Mayowa-27/leukemia-detection-ai/raw/main/screenshots/clinics.png" width="800"/>
+![Clinics](screenshots/clinics.png)
 
+## Installation
 
-
-
+`ash
+git clone https://github.com/Mayowa-27/leukemia-detection-ai.git
+cd leukemia-detection-ai
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+Usage
+Web App
+streamlit run app.py
 Command Line Prediction
-
 python predict.py path/to/image.jpg
-
-
-
-📁 Project Structure
-
-leukemia\_detection/
-
+Project Structure
+leukemia_detection/
 ├── data/               # Dataset
-
 ├── models/             # Trained models
-
 ├── results/            # Visualizations
-
+├── screenshots/        # App screenshots
 ├── app.py              # Streamlit web app
-
 ├── predict.py          # CLI prediction
-
-├── train\_complete.py   # Training script
-
+├── train_complete.py   # Training script
 └── requirements.txt    # Dependencies
-
-
-
-
-
-
-
-👨‍💻 Author
-
+Author
 Mayowa - Final Year Project
-
 Year: 2026
-
-⚠️ Disclaimer
-
+Limitations and Future Work
+Current Limitations
+Dataset scope: Only covers Acute Lymphoblastic Leukemia (ALL) subtypes
+Dataset size: 3,256 images is relatively small for deep learning
+Class imbalance: Benign class has fewer samples (504) compared to Early (985)
+GPU limitation: Training was done on CPU due to lack of GPU access
+Future Improvements
+Expand to all 4 leukemia types (ALL, AML, CLL, CML)
+Collect larger dataset from multiple Nigerian hospitals
+Implement cloud deployment for nationwide access
+Add explainable AI (heatmap visualization)
+Disclaimer
 This system is for research and educational purposes only. It should not be used as a substitute for professional medical diagnosis. Always consult a qualified healthcare provider.
-
+License
+This project is licensed under the MIT License.
