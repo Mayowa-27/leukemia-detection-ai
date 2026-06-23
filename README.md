@@ -95,20 +95,19 @@ streamlit run app.py
 ## 📸 Screenshots
 
 ### Login Page
-&lt;img src="https://github.com/Mayowa-27/leukemia-detection-ai/raw/main/screenshots/login.png" width="800"/&gt;
+<img src="https://github.com/Mayowa-27/leukemia-detection-ai/raw/main/screenshots/login.png" width="800"/>
 
 ### AI Diagnosis Dashboard
-&lt;img src="https://github.com/Mayowa-27/leukemia-detection-ai/raw/main/screenshots/dashboard.png" width="800"/&gt;
+<img src="https://github.com/Mayowa-27/leukemia-detection-ai/raw/main/screenshots/dashboard.png" width="800"/>
 
 ### Scan Results with Probability Analysis
-&lt;img src="https://github.com/Mayowa-27/leukemia-detection-ai/raw/main/screenshots/scan_result.png" width="800"/&gt;
+<img src="https://github.com/Mayowa-27/leukemia-detection-ai/raw/main/screenshots/scan_result.png" width="800"/>
 
 ### Leukemia Education & Prevention
-&lt;img src="https://github.com/Mayowa-27/leukemia-detection-ai/raw/main/screenshots/about.png" width="800"/&gt;
+<img src="https://github.com/Mayowa-27/leukemia-detection-ai/raw/main/screenshots/about.png" width="800"/>
 
 ### Nigerian Cancer Centers Directory
-&lt;img src="https://github.com/Mayowa-27/leukemia-detection-ai/raw/main/screenshots/clinics.png" width="800"/&gt;![Clinics](screenshots/clinics.png)
-
+<img src="https://github.com/Mayowa-27/leukemia-detection-ai/raw/main/screenshots/clinics.png" width="800"/>
 
 
 
