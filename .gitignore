@@ -1,0 +1,39 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Model files (too large for GitHub)
+*.h5
+*.pkl
+*.pth
+
+# Data (too large)
+data/raw/
+data/processed/
+data/split/
+
+# Results (generated files)
+results/*.png
+results/*.jpg
+
+# User database
+users.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
