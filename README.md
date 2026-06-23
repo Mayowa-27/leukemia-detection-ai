@@ -92,6 +92,23 @@ Web App
 
 streamlit run app.py
 
+## 📸 Screenshots
+
+### Login Page
+![Login](screenshots/login.png)
+
+### AI Diagnosis Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Scan Results with Probability Analysis
+![Scan Result](screenshots/scan_result.png)
+
+### Leukemia Education & Prevention
+![About](screenshots/about.png)
+
+### Nigerian Cancer Centers Directory
+![Clinics](screenshots/clinics.png)
+
 
 
 
